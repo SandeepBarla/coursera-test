@@ -16,14 +16,41 @@ body {
 
 .navbar-header h1{
   font-size: 2em;
+  margin-top: 0;
   font-weight: bold;
-  padding-left: 20px;
-  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-bottom: 0;
   color: black;
 }
 .navbar-header a:hover{
   text-decoration: none;
 }
+.navbar-toggle{
+  border: 2px solid black;
+  margin-right: 25px;
+  background-color: white;
+}
+.icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+#navbar-list a{
+  display: block;
+  color: black;
+  text-align: center;
+  font-size: 1.5em;
+  border:1px solid black;
+  padding: 0;
+  margin:0;
+}
+
+#navbar-list a:hover{
+  color: red;
+}
+
 h2{
   font-weight: bold;
   margin-bottom: 20px;
@@ -44,25 +71,4 @@ h2{
 }
 .box p a{
   color: blue;
-}
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid black;
-}
-.navbar-header button.navbar-toggle {
-  background-color: white;
-  clear: both;
-  margin-top: -30px;
-}
-#navbar-list a{
-  display: block;
-  color: black;
-  text-align: center;
-  font-size: 1.5em;
-  /*margin-top: -10px;*/
-}
-#navbar-list hr{
-  margin: 0;
-}
-#navbar-list a:hover{
-  color: red;
 }
